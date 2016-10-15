@@ -1,0 +1,7 @@
+[package]
+name = "tinyhttp"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+tiny_http = { git = "https://github.com/frewsxcv/tiny-http" }

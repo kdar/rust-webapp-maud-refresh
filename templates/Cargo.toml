@@ -1,0 +1,14 @@
+[package]
+name = "templates"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+maud = "0.12"
+maud_macros = "0.12"
+lazy_static = "0.1.*"
+libc = "0.2"
+
+[lib]
+name = "templates"
+crate_type = ["dylib"]

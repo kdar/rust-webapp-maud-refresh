@@ -1,0 +1,14 @@
+[package]
+name = "webservice"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+tiny_http = "0.5"
+sharedlib = "6.0"
+notify = { git = "https://github.com/passcod/rsnotify" }
+libc = "0.2"
+
+[[bin]]
+name = "webservice"
+path = "src/main.rs"

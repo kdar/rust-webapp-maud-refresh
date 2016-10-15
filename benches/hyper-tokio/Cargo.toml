@@ -1,0 +1,8 @@
+[package]
+name = "hyper-tokio"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+hyper = { git="https://github.com/hyperium/hyper", branch = "tokio"}
+futures = "*"
